@@ -1,0 +1,1 @@
+package service; import java.util.*; import model.*; public class Warehouse { private Map<String, Wine> wines = new HashMap<>(); private List<Order> orders = new ArrayList<>(); public void process(Order o) { o.execute(); orders.add(o); } }

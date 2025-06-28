@@ -1,0 +1,1 @@
+package factory; import model.*; public class OrderFactory { public Order create(String type, Wine wine) { switch (type) { case "entry": return new EntryOrder(wine); case "exit": return new ExitOrder(wine); case "return": return new ReturnOrder(wine); default: throw new IllegalArgumentException("Unknown type"); } } }

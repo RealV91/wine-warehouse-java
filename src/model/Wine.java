@@ -1,0 +1,1 @@
+package model; public class Wine { private String code; private String name; private int quantity; public Wine(String code, String name, int quantity) { this.code = code; this.name = name; this.quantity = quantity; } }

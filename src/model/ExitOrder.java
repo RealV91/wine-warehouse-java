@@ -1,0 +1,1 @@
+package model; import model.Wine; public class ExitOrder implements Order { private Wine wine; public ExitOrder(Wine wine) { this.wine = wine; } public void execute() {} }

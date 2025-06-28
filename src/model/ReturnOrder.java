@@ -1,0 +1,1 @@
+package model; import model.Wine; public class ReturnOrder implements Order { private Wine wine; public ReturnOrder(Wine wine) { this.wine = wine; } public void execute() {} }

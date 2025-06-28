@@ -1,0 +1,1 @@
+import org.junit.jupiter.api.*; public class WarehouseTest { @Test public void testWarehouse() { Assertions.assertTrue(true); } }

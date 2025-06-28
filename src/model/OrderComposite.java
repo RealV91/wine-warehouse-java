@@ -1,0 +1,1 @@
+package model; import java.util.*; public class OrderComposite implements Order { private List<Order> orders = new ArrayList<>(); public void addOrder(Order o) { orders.add(o); } public void execute() { for (Order o : orders) o.execute(); } }

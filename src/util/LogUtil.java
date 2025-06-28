@@ -1,0 +1,1 @@
+package util; import java.util.logging.*; public class LogUtil { public static Logger logger = Logger.getLogger("WarehouseLogger"); static { logger.setUseParentHandlers(false); } }

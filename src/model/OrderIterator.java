@@ -1,0 +1,1 @@
+package model; import java.util.*; public class OrderIterator implements Iterator<Order> { private List<Order> orders; private int index = 0; public OrderIterator(List<Order> orders) { this.orders = orders; } public boolean hasNext() { return index < orders.size(); } public Order next() { return orders.get(index++); } }
